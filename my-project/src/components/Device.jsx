@@ -2,7 +2,7 @@ import Chicken from "../assets/images/chicken.png";
 
 const Device = () => {
   return (
-    <div className="pl-[1rem] pt-[2.5rem] bg-[#171717] h-[80%] relative overflow-x-hidden">
+    <div className=" lg:pl-[1rem] pt-[2.5rem] bg-[#171717] h-[80%] relative overflow-x-hidden">
         <img src={Chicken} alt="Chicken" className="w-[30rem] m-auto" />
     <section className="absolute left-[50rem] top-[9rem]">
         <p className="text-[white] text-[2.5rem] w-[40%]">Play from any device</p>

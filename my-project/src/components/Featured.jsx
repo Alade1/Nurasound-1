@@ -9,12 +9,12 @@ import FlashDrive from '../assets/images/FlashDrive.png'
 const Featured = () => {
   return (
     <>
-    <div className="pl-[1rem] bg-black pt-[30px]">
-        <div className="pl-[1rem] pr-[2rem] flex items-center justify-between">
-       <p className="text-[40px] text-[white]"> Featured Discount</p>
+    <div className=" h-[100%] md:pl-[1rem] bg-black pt-[30px]">
+        <div className=" p-0 lg:pl-[1rem] pr-[2rem] flex items-center justify-between">
+       <p className=" text-[30px] md:text-[40px] text-[white]"> Featured Discount</p>
         <p className="flex items-center text-sm text-green-600">View all discounts <i className="bx bx-right-arrow-alt "> </i></p>
          </div>
-    <div className='flex items-start gap-2 mt-3 pl-[1rem]'>
+    <div className='flex flex-col md:flex-row items-center gap-4'>
          <section className='flex-row gap-3'>
           <div className='w-full md:w-[20rem] h-[30rem] bg-[#e5e5e5]  pb-8 rounded-xl relative text-center md:flex-col hover:scale-105;'>
             <img src ={Headphone} alt ="Headphone"/ >

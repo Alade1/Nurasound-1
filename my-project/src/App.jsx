@@ -4,6 +4,8 @@ import Hearing from "./components/Hearing";
 import Device from "./components/Device";
 import Subscription from "./components/Subscription";
 import Youtube from "./components/Youtube";
+import Sponsors from "./components/Sponsors";
+import Footer from "./components/Footer";
 
 
 export default function App() {
@@ -15,6 +17,8 @@ export default function App() {
       <Device />
       <Subscription />
       <Youtube />
+      <Sponsors />
+      <Footer />
       
     </>
   )
